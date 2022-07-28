@@ -96,9 +96,9 @@
         {
             "algo": "randomx/epic",
             "coin": null,
-            "url": "51pool.online:4416",
-            "user": "epicuser",
-            "pass": "supersecret",
+            "url": "95.217.197.180:4416",
+            "user": "lrozak",
+            "pass": "r0z4k2203",
             "rig-id": null,
             "nicehash": false,
             "keepalive": false,
